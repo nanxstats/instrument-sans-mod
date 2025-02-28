@@ -1,8 +1,8 @@
 {
-.appVersion = "3184";
+.appVersion = "3401";
 .formatVersion = 3;
 DisplayStrings = (
-"/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/periodcentered.loclCAT.case/periodcentered.loclCAT.case/parenright.case/parenright.case/parenright.case/parenright.case/parenright.case/parenright.case/parenright.case/braceright.case/braceright.case/braceright.case/braceright.case/braceright.case/braceright.case/bracketright.case/bracketright.case/bracketright.case/bracketright.case"
+R
 );
 axes = (
 {
@@ -566,7 +566,6 @@ over = -15;
 pos = -205;
 },
 {
-over = -16;
 pos = 13;
 }
 );
@@ -698,7 +697,6 @@ over = -15;
 pos = -205;
 },
 {
-over = -16;
 pos = 13;
 }
 );
@@ -836,7 +834,6 @@ over = -15;
 pos = -205;
 },
 {
-over = -16;
 pos = 13;
 }
 );
@@ -973,7 +970,6 @@ over = -15;
 pos = -205;
 },
 {
-over = -16;
 pos = 13;
 }
 );
@@ -11590,7 +11586,7 @@ unicode = 81;
 glyphname = R;
 kernLeft = KO_B;
 kernRight = KO_R.ss05;
-lastChange = "2023-02-07 19:01:00 +0000";
+lastChange = "2025-02-28 19:58:15 +0000";
 layers = (
 {
 anchors = (
@@ -11672,9 +11668,9 @@ nodes = (
 closed = 1;
 nodes = (
 (365,0,l),
-(209,374,l),
-(139,374,l),
-(289,0,l)
+(235,374,l),
+(165,374,l),
+(295,0,l)
 );
 }
 );
@@ -11847,9 +11843,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(573,0,l),
-(260,357,l),
-(160,357,l),
+(561,0,l),
+(367,357,l),
+(267,357,l),
 (461,0,l)
 );
 }
@@ -11935,9 +11931,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(601,0,l),
-(353,374,l),
-(207,374,l),
+(556,0,l),
+(371,374,l),
+(225,374,l),
 (410,0,l)
 );
 }
@@ -116045,20 +116041,20 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)";
+}
+);
+},
+{
 key = designers;
 values = (
 {
 language = dflt;
 value = "Rodrigo Fuenzalida";
-}
-);
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = fragTYPE;
 }
 );
 },
@@ -116076,21 +116072,21 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 );
 },
 {
-key = copyrights;
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)";
+value = fragTYPE;
 }
 );
 },
 {
 key = manufacturerURL;
 value = www.fragtypefoundry.xyz;
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
 }
 );
 stems = (
@@ -116110,6 +116106,9 @@ name = hStem1;
 }
 );
 unitsPerEm = 1000;
+userData = {
+GSDontShowVersionAlert = 1;
+};
 versionMajor = 1;
 versionMinor = 0;
 }
