@@ -1,8 +1,8 @@
 {
-.appVersion = "3184";
+.appVersion = "3401";
 .formatVersion = 3;
 DisplayStrings = (
-"/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case"
+R
 );
 axes = (
 {
@@ -566,7 +566,6 @@ over = -15;
 pos = -205;
 },
 {
-over = -16;
 }
 );
 name = "Condensed Regular";
@@ -694,7 +693,6 @@ over = -15;
 pos = -205;
 },
 {
-over = -16;
 }
 );
 name = "Condensed Bold";
@@ -826,7 +824,6 @@ over = -15;
 pos = -205;
 },
 {
-over = -16;
 }
 );
 name = Regular;
@@ -962,7 +959,6 @@ over = -15;
 pos = -205;
 },
 {
-over = -16;
 }
 );
 name = Bold;
@@ -11008,7 +11004,7 @@ unicode = 81;
 glyphname = R;
 kernLeft = KO_B;
 kernRight = KO_R.ss05;
-lastChange = "2023-02-07 19:01:00 +0000";
+lastChange = "2025-02-28 19:55:15 +0000";
 layers = (
 {
 anchors = (
@@ -11087,9 +11083,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(424,0,l),
-(182,374,l),
-(104,374,l),
+(419,0,l),
+(259,374,l),
+(181,374,l),
 (341,0,l)
 );
 }
@@ -11182,9 +11178,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(632,0,l),
-(237,357,l),
-(125,357,l),
+(620,0,l),
+(340,357,l),
+(228,357,l),
 (508,0,l)
 );
 }
@@ -11372,9 +11368,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(660,0,l),
-(326,374,l),
-(163,374,l),
+(615,0,l),
+(363,374,l),
+(200,374,l),
 (452,0,l)
 );
 }
@@ -112035,20 +112031,20 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)";
+}
+);
+},
+{
 key = designers;
 values = (
 {
 language = dflt;
 value = "Rodrigo Fuenzalida";
-}
-);
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = fragTYPE;
 }
 );
 },
@@ -112066,21 +112062,21 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 );
 },
 {
-key = copyrights;
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)";
+value = fragTYPE;
 }
 );
 },
 {
 key = manufacturerURL;
 value = www.fragtypefoundry.xyz;
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
 }
 );
 stems = (
@@ -112100,6 +112096,9 @@ name = hStem1;
 }
 );
 unitsPerEm = 1000;
+userData = {
+GSDontShowVersionAlert = 1;
+};
 versionMajor = 1;
 versionMinor = 0;
 }
